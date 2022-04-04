@@ -1,0 +1,113 @@
+*{
+    font-family: 'Montserrat';
+}
+.mainIdioma{
+    width: 100px;
+    background-color: rgb(4,116,252);
+    color: white;
+    text-align: center;
+}
+.secondIdioma{
+    width: 100px;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    color: black;
+}
+.centered{
+    display: flex;
+    justify-content: center;
+}
+
+.centeredText{
+    text-align: center;
+    font-size: x-large;
+    font-weight: 700;
+}
+#mainImage{
+    width: 100vw;
+    height: 70vh;
+}
+#inicioSesion2{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+#textoConsiste{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+#cuatroPuntos{
+    margin-top: 2rem;
+}
+.columna {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.fila, .fila-md, .fila-sm{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.fila{
+    margin-top: 2rem;
+}
+.fila-md{
+    width: 50%;
+}
+.fila-sm{
+    width: 25%;
+}
+.unPunto{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.main{
+    width: 80%;
+    align-items: center;
+    margin:auto;
+}
+
+.primaryButton{
+    background-color: rgb(4,116,252);
+    color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    width: 100%;
+    margin-top: 1rem;
+    text-align: center;
+}
+.secondaryButton{
+    background-color: white;
+    color: rgb(4,116,252);
+    border-style: solid;
+    border-color: rgb(4,116,252);
+    border-width: 1px;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    width: 100%;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+a, a:link, a:visited,  a:hover, a:active{
+    box-shadow: none;
+    text-decoration: none;
+}
+
+div.numeros{
+    color: white;
+    font-size: 80px;
+    font-weight: 900;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #0075FF;
+}
