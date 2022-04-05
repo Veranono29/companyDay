@@ -6,6 +6,11 @@
     background-color: rgb(4,116,252);
     color: white;
     text-align: center;
+    margin: auto;
+
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
 }
 .secondIdioma{
     width: 100px;
@@ -14,10 +19,12 @@
     border-color: black;
     border-width: 1px;
     color: black;
+    margin: auto;
 }
 .centered{
     display: flex;
     justify-content: center;
+    
 }
 
 .centeredText{
@@ -51,6 +58,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    /*flex-wrap: wrap;*/
     justify-content: space-around;
 }
 .fila{
@@ -103,11 +111,27 @@ a, a:link, a:visited,  a:hover, a:active{
     box-shadow: none;
     text-decoration: none;
 }
-
+.centeredColumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+}
 div.numeros{
     color: white;
     font-size: 80px;
-    font-weight: 900;
-    -webkit-text-stroke-width: 1px;
+    font-weight: 800;
+    -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color: #0075FF;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 120%;
+    /* or 96px */
+    letter-spacing: 0.085em;
+
+  
 }

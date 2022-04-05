@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu de inicio</title>
 
-    <link rel="stylesheet" href="./style.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    
     <link rel="stylesheet" href="./assets/styleHome.css">
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     
@@ -16,16 +18,17 @@
     
     <!--ESTO ES LA BARRA DE NAVEGACIÓN HACE FALTA ADPATARLA-->
     
-    <header class="d-flex justify-content-around" style="background-color: antiquewhite;"> 
+    <header class="d-flex justify-content-around" style="background-color: #EFEFEF;"> 
         <!-- <img src="../static/img/logo-utad.png" class="d-lg-inline-flex" width="100" height="50">
         <img src="../static/img/logo-company.png" class="d-lg-inline-flex" width="200" height="80">
         <img src="../static/img/espanol.png" class="d-lg-inline-flex" width="50" height="50">
         -->
-        <div class="d-lg-inline-flex" width="100" height="50" style="background-color: rgb(215, 235, 250);" ><img src="../static/img/logo-utad.png"></div>
-        <div class="d-lg-inline-flex" width="200" height="80"style="background-color:red;" ><img src="../static/img/logo-utad.png"></div>
-        <div class="d-lg-inline-flex" width="100" height="50">
-            <a href=""  class="mainIdioma centered">ENTRAR</a>
-            <div class="secondIdioma centered">ES</div>
+        <div class="d-lg-inline-flex" width="100" height="50"><img src="assets/logo.png"></div>
+        <div class="d-lg-inline-flex" width="200" height="80"><img src="assets/company_logo.png"></div>
+        <div class="d-lg-inline-flex" width="100" height="50" >
+            <a href=""  class="mainIdioma centered" style="margin-left: 2vh;">ENTRAR</a>
+            
+            <div class="secondIdioma centered" style="margin-left: 2vh;">ES</div>
         </div>
     </header>
 
@@ -107,19 +110,31 @@
                     <div class="fila-md">
                         <div class="numeros ">4</div>
                         <div class="unPunto columna">
-                            <h3>PRESENTACIÓN DE PROYECTOS</h3>
-                            <p> Cortos de animación y VFX, videojuegos, portfolios de diseño,
-                         apps, experiencias de realidades extendidas… Los alumnos presentan 
-                         sus proyectos a las empresas.  
+                            <h3>FERIA DE EMPRESAS</h3>
+                            <p> 
++ DE 20 CHARLAS <br>
+
+Conoce lo que las empresas buscan y en lo que trabajan, a reclutadores y profesionales que te darán información de primera mano sobre sus procesos de selección, sectores y casos de éxito.
+
+Las charlas y ponencias se realizarán online durante toda la semana del 15 al 19 de noviembre. 
                             </p>
                         </div>
                     </div>
                 </div>
-            
+                <br><br>
+                <div class="centeredColumn">
+                    <p>Descarga la agenda completa para conocer los horarios de todas las actividades y el plano de la feria.</p>
+                    <a href="http://" class="primaryButton col-md-2">DESCARGAR AGENDA</a>
+                </div>
+            <br><br><br>
         </article>
         <!--COLABORADORES-->
         <article>
+            <br><br><br>
             <h2 class="headerFrase centered">EMPRESAS PARTICIPANTES</h2>
+            <br><br><br>
+            <p>(INSERTE AQUI LOS LOGOS DE LAS EMPRESAS QUE VAN A PARTICIPAR EN EL COMPANY DAY O QUE TENGAN RELACIO NCON LA UNIVERSIDAD DE ALGUNA MANERA)</p>
+            <br><br><br>
             <!--CARROUSEL CON LOS LOGOS DE LAS EMPRESAS-->
         </article>
         <article>
@@ -127,7 +142,7 @@
             <h2 class="headerFrase centered">¿COMO FUE EL COMPANY DAY 2021?</h2>
             <div class="fila">
                 <div class="columna centered">
-                    <div class="numeros ">372</div>
+                    <div class="numeros" style="width: 244px; height: 92px;">372</div>
                     <p>ENTREVISTAS REALIZADAS</p>
                 </div>
                 <div class="columna centered">
@@ -145,17 +160,16 @@
             </div>
         </article>
     </section>
-
+<br><br><br>
 
     <!--FOOTER CON LOGOS-->
-    <footer class="d-flex justify-content-around" style="background-color: antiquewhite;"> 
+    <footer class="d-flex justify-content-around" style="background-color: rgba(239,239,239,255);"> 
         
-        <div class="d-lg-inline-flex" width="100" height="50" style="background-color: rgb(215, 235, 250);" ><img src="../static/img/logo-utad.png"></div>
-        <div class="d-lg-inline-flex" width="100" height="50" style="background-color: rgb(215, 235, 250);" ><img src="../static/img/logo-utad.png"></div>
-        <div class="d-lg-inline-flex" width="200" height="80"style="background-color:red;" ><img src="../static/img/logo-utad.png"></div>
+        <div class="d-lg-inline-flex" width="100" height="50"><img src="assets/logo.png"></div>
+        <div class="d-lg-inline-flex" width="100" height="50"><div class="columna">Proyecto cofinanciado por:</div></div>
+        <div class="d-lg-inline-flex" width="200" height="80"><div class="columna">Centro adscrito a </div></div>
         <div class="d-lg-inline-flex" width="100" height="50">
-            <a href=""  class="mainIdioma centered">ENTRAR</a>
-            <div class="secondIdioma centered">ES</div>
+           <div class="columna">Privacy policy | © U-tad 2022</div>
         </div>
     </footer>
 </body>
